@@ -1,0 +1,22 @@
+{
+  "name": "nodejsbasisworkshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gennadiii/nodejsBasisWorkshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gennadiii/nodejsBasisWorkshop/issues"
+  },
+  "homepage": "https://github.com/Gennadiii/nodejsBasisWorkshop#readme",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}

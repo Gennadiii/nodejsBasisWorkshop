@@ -1,0 +1,16 @@
+{
+    "name": "script",
+    "version": "1.0.0",
+    "main": "script.js",
+    "scripts": {
+        "test": "node script.js",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "selenium-webdriver": "^4.4.0",
+        "webdriver-manager": "^12.1.8"
+    }
+}

@@ -4,7 +4,9 @@ const files = getFilesRecursively(`${process.cwd()}/dataSearch/data`).sort();
 files.forEach(file => {
   const content = fs.readFileSync(file).toString();
   const match = content.match(/desiredProp: "(.*)",/);
-  match && console.log(match[1]);
+  if (match) {
+    console.log(match[1]);
+  }
 });
 
 function getFilesRecursively(path, result = []) {
